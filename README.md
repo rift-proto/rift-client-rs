@@ -2,7 +2,7 @@
 
 Async Rust client SDK for the [Rift Realtime Protocol / 1.0](https://rift.dev) — a WebSocket-based bidirectional messaging protocol built for AI-era realtime use cases.
 
-[![CI](https://github.com/rift-proto/rift-client/actions/workflows/ci.yml/badge.svg)](https://github.com/rift-proto/rift-client/actions/workflows/ci.yml)
+[![CI](https://github.com/rift-proto/rift-client-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rift-proto/rift-client-rs/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/rift-client)](https://crates.io/crates/rift-client)
 [![Documentation](https://docs.rs/rift-client/badge.svg)](https://docs.rs/rift-client)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](#license)

@@ -11,7 +11,7 @@ Thanks for your interest in contributing! This guide will help you get started.
 
 2. Clone and build:
    ```bash
-   git clone https://github.com/rift-proto/rift-client.git
+   git clone https://github.com/rift-proto/rift-client-rs.git
    cd rift-client
    cargo build
    ```
