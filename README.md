@@ -1,5 +1,16 @@
 # rift-client
 
+> **DEPRECATED**: This crate has been merged into [`rifts`](https://crates.io/crates/rifts).
+> Use `rifts` with feature `client` instead:
+>
+> ```toml
+> rifts = { version = "0.3", features = ["client"] }
+> ```
+>
+> ```rust
+> use rifts::client::{RiftClient, RiftClientConfig, ClientEvent};
+> ```
+
 Async Rust client SDK for the [Rift Realtime Protocol / 1.0](https://rift.dev) — a WebSocket-based bidirectional messaging protocol built for AI-era realtime use cases.
 
 [![CI](https://github.com/rift-proto/rift-client-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rift-proto/rift-client-rs/actions/workflows/ci.yml)

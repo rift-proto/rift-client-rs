@@ -1,6 +1,10 @@
 #![deny(missing_docs)]
+#![doc = "**DEPRECATED** — use `rifts` crate with feature `client` instead."]
 
 //! # rift-client — Rift Realtime Protocol / 1.0 Async Rust Client SDK
+//!
+//! > **DEPRECATED**: This crate has been merged into [`rifts`](https://crates.io/crates/rifts).
+//! > Use `rifts` with feature `client` instead.
 //!
 //! Connect to a [`riftrust`](https://docs.rs/rifts) server over WebSocket,
 //! perform the Hello/Welcome/Ready handshake, and interact with topics
