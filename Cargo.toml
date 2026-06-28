@@ -1,0 +1,25 @@
+[package]
+name = "rift-client"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Rift Realtime Protocol / 1.0 — async Rust client SDK"
+repository = "https://github.com/nicholasgasior/rift-client"
+homepage = "https://rift.dev"
+readme = "README.md"
+keywords = ["websocket", "realtime", "pubsub", "rift", "async"]
+categories = ["network-programming", "asynchronous"]
+
+[dependencies]
+rifts = "0.3"
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = { version = "0.24", features = ["url"] }
+futures-util = { version = "0.3", features = ["sink"] }
+bytes = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4", "v7"] }
+ulid = "1"
+thiserror = "2"
+tracing = "0.1"
+rand = "0.9"
