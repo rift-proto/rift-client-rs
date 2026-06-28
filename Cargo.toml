@@ -1,10 +1,11 @@
 [package]
 name = "rift-client"
 version = "0.1.0"
+authors = ["Zhenyi <434836402@qq.com>"]
 edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "Rift Realtime Protocol / 1.0 — async Rust client SDK"
-repository = "https://github.com/nicholasgasior/rift-client"
+repository = "https://github.com/rift-proto/rift-client"
 homepage = "https://rift.dev"
 readme = "README.md"
 keywords = ["websocket", "realtime", "pubsub", "rift", "async"]
